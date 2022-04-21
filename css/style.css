@@ -22,17 +22,18 @@
 main {
     background-color: #f6f8f9;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .container {
     background-color: white;
     width: 60%;
     margin: auto;
-    height: 800px;
+    height: 600px;
     border-radius: 5px;
 }
 
-.first-section {
+.first-section, .second-section {
     padding-top: 20px;
     padding-left: 40px;
 }
@@ -60,4 +61,76 @@ hr {
     border-style: solid;
     color: #f6f8f9;
     margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.titles {
+    font-size: 20px;
+    font-weight: 700;
+    color: #494d56;
+    font-family: sans-serif;
+}
+
+.list-elements {
+    font-size: 17px;
+    color: #494d56;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.underline {
+    font-family: sans-serif;
+    font-size: 10px;
+    color: white;
+    padding: 6px;
+    border-radius: 8px;
+    border-width: 1px;
+}
+
+.blue {
+    background-color: #47adf1;
+}
+
+.violet {
+    background-color: #9c72e4;
+}
+
+.green {
+    background-color: #64c0a9;
+}
+
+.orange {
+    background-color: #f29e33;
+}
+
+.pink {
+    background-color: #d863a1;
+}
+
+.lime {
+    background-color: #b0c926;
+}
+
+.characters {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 18px;
+}
+
+.done {
+    color: green;
+    border: 1px solid green;
+}
+
+.not-done {
+    color: red;
+    border: 1px solid red;
+    font-size: 6px;
 }
