@@ -19,3 +19,45 @@
     margin-left: 20px;
 }
 
+main {
+    background-color: #f6f8f9;
+    padding-top: 50px;
+}
+
+.container {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    height: 800px;
+    border-radius: 5px;
+}
+
+.first-section {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.celeste {
+    border-color: #47adf1;
+    background-color: #47adf1;
+    color: white;
+}
+
+.bianco {
+    border-color: grey;
+    background-color: white;
+    color: grey;
+}
+
+hr {
+    border-style: solid;
+    color: #f6f8f9;
+    margin-top: 10px;
+}
